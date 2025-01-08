@@ -2,8 +2,8 @@ from hummingbot.core.api_throttler.data_types import RateLimit
 from hummingbot.core.data_type.in_flight_order import OrderState
 
 # Base API & WS URLs
-LBANK_REST_URL = "https://api.lbkex.com/"
-LBANK_WSS_URL = "wss://www.lbkex.net/ws/V2/"
+LBANK_REST_URL = "https://mmapi.lbankverify.com/"
+LBANK_WSS_URL = "wss://mmapi.lbankverify.com/ws/V2/"
 
 API_VERSION = "v2"
 
